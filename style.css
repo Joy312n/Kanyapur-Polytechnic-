@@ -1,0 +1,191 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Ubuntu&display=swap');
+
+#navbar{
+  display: flex;
+  align-items: center;
+}
+
+#logo img{
+  height: 59px;
+  margin: 3px 6px;
+}
+
+#navbar ul{
+  display: flex;
+}
+
+#navbar ul li{
+ 
+  list-style: none;
+  font-size: 1.3rem;
+}
+
+#navbar ul li a{
+  color: ghostwhite;
+  display: block;
+  padding: 3px 22px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-family: 'Ubuntu';
+}
+
+#navbar .login{
+  margin-left: 55px;
+  color: ghostwhite;
+  padding: 3px 15px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-family: 'Ubuntu', sans-serif;
+  
+}
+
+
+
+#navbar ul li a:hover{
+  color: black;
+  background-color: ghostwhite;
+}
+
+#navbar .login a:hover{
+  color: black;
+  background-color: ghostwhite;
+}
+
+#navbar ul{
+  display: flex;
+}
+
+#navbar{
+  position: relative;
+}
+#navbar::before{
+  content: "";
+  background-color: black;
+  position: absolute;
+  height:100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.4;
+}
+
+#home{
+  display: flex;
+  flex-direction: column;
+  padding: 3px 200px;
+  justify-content: center;
+  align-items:center; 
+}
+
+
+
+
+
+#home::before{
+  content: "";
+  position: absolute;
+  background: url(kpimg.jpg) no-repeat center center/cover;
+  height: 23%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.8;
+  border-bottom: 2px solid blue;
+}
+
+#box{
+  background-color: lightcyan;
+  margin-top: 120px;
+  padding: 50px;
+  padding-bottom: 230px;
+  margin-inline: 20px;
+  border: 2px solid blue;
+  border-radius: 10px;
+}
+
+#home h1{
+  color: blue;
+  text-align: center;
+}
+
+.h-primary{
+  font-size: 2rem;
+  padding: 8px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#home p{
+  color: ghostwhite;
+  font-size: 1rem;
+}
+
+.map{
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 300px;
+  margin-left: 30%;
+  margin-right: 30%;
+  background: darkturquoise;
+  border: 2px solid blue;
+  border-radius: 10px;
+  
+}
+
+
+.map .loc h1{
+ 
+  text-align: center;
+  margin-bottom: 50px;
+  color: ghostwhite;
+  
+}
+
+.map .loc .btn{
+   display: block;
+   background-color: cyan;
+   border: 2px solid black;
+   border-radius: 5px;
+   padding: 3px;
+   margin: 20px auto;
+   width: 100%;
+   color: blue;
+}
+
+.map .loc .btn a{
+  text-decoration: none;
+}
+
+.map h1{
+   
+  text-align: center;
+  margin-bottom: 50px;
+  color: ghostwhite;
+  
+  
+}
+
+.map .btn{
+.  display: block;
+   background-color: cyan;
+   border: 2px solid black;
+   border-radius: 5px;
+   padding: 4px 6px;
+   margin: 20px auto;
+   width: 50%;
+   color: blue;
+  
+  
+}
+.map .btn a{
+  text-decoration: none;
+  color: blue;
+  
+}
